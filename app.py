@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from io import BytesIO
 import base64
-from xlsxwriter import Workbook
+import xlsxwriter
+
 from modules import upload_ksg_1, show_plot_1
 
 # st.text("This is data anomaly KSG service")
