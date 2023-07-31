@@ -4,5 +4,4 @@ numpy
 matplotlib
 seaborn==0.12.2
 openpyxl==3.1.2
-xlswriter==3.1.2
 pyxlsb==1.0.10
