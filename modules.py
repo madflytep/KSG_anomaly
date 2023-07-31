@@ -18,7 +18,7 @@ def upload_ksg_1(uploaded_file):
     df['date_diff'] = (df['ДатаОкончанияЗадачи'] -  df['date_report']).dt.days
 
     #загрузка списка объектов и получение объектов, по которым не ведется работа
-    directory = pd.read_excel(r'directory\directory.xlsx', sheet_name='objects_spr')
+    directory = pd.read_excel('directory/directory.xlsx', sheet_name='objects_spr')
     status_list = ['Приостановлен', 'Проектирование приостановлено', 'Строительство приостановлено']
     black_objects = directory[directory['status'].isin(status_list)]['obj_key']
 
