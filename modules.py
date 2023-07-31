@@ -5,6 +5,7 @@ import seaborn as sns
 from io import BytesIO
 from pyxlsb import open_workbook as open_xlsb
 import streamlit as st
+import xlsxwriter
 
 def upload_ksg_1(uploaded_file):
     """Данная функция считвает загруженный файл и преобрабатывает данные для вявление аномалий 1-группы
