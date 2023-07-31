@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from io import BytesIO
 import base64
-import xlsxwriter
 
 from modules import upload_ksg_1, show_plot_1
 
