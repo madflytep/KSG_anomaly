@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 from io import BytesIO
 from pyxlsb import open_workbook as open_xlsb
 import streamlit as st
